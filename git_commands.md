@@ -9,10 +9,11 @@ Git has a **staging area** in which it stores files with changes you want to sav
     * arguments
     -r 
 	* contents (could also be added behind arguments)
-		* + filename: compare the file as it currently is to what you last saved
-    	* + directory: show you the changes to the files in some directory.
-    	* + without any filenames will show you all the changes in your repository
+		* filename: compare the file as it currently is to what you last saved
+    	* directory: show you the changes to the files in some directory.
+    	* without any filenames will show you all the changes in your repository
     * examples:
+    
         contents										           |		   Explanation
         -----------------------------------------------------------| ----------------------------------------------------------------------------------
 		diff --git a/report.txt b/report.txt            |          diff --git: the command used to produce the output
