@@ -13,8 +13,8 @@ Git has a **staging area** in which it stores files with changes you want to sav
     	* + directory: show you the changes to the files in some directory.
     	* + without any filenames will show you all the changes in your repository
     * examples:
-        contents										|		   Explanation
-        ------------------------------------------------ | ----------------------------------------------------------------------------------
+        contents										           |		   Explanation
+        -----------------------------------------------------------| ----------------------------------------------------------------------------------
 		diff --git a/report.txt b/report.txt            |          diff --git: the command used to produce the output
 		index e713b17..4c0742a 100644					|		   a and b are placeholders mearning "the first version" and "the second version"
 		--- a/report.txt       							 |		   wherein lines being removed are prefixed with - and lines being added are prefixed with +
