@@ -46,3 +46,4 @@ Git has a **staging area** in which it stores files with changes you want to sav
 		+2017-11-01,bicuspid	           				|		   A line-by-line listing of the changes with - showing deletions and + showing additions
 
 # How git store information 
+![store information: copyright of datacamp](images/store.png)
