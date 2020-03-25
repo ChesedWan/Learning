@@ -47,3 +47,8 @@ Git has a **staging area** in which it stores files with changes you want to sav
 
 # How git store information 
 ![store information: copyright of datacamp](images/store.png)
+
+1. A commit contains metadata such as the author, the commit message, and the time the commit happened. 
+2. Each commit also has a tree, which tracks the names and locations in the repository when that commit happened
+3. For each of the files listed in the tree, there is a blob. This contains a compressed snapshot of the contents of the file when the commit happened (blob is short for binary large object, which is a SQL database term for "may contain data of any kind")
+
