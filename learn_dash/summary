@@ -1,0 +1,9 @@
+dash.Dash(__name__, (external_stylesheets))
+-.layout
+-.
+
+# location of parameters in component is interchangeable
+# components in children could be dash_core_components or dash_html_components
+html.component(style={'property name': value, ...}, children=[comp1, comp2, ...])
+dcc.Graph(id='', figure={'data': list of dict}, 'layout': dict + dict of dict(apply to 'font'))
+
