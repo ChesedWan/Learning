@@ -85,7 +85,7 @@ Git has a **staging area** in which it stores files with changes you want to sav
 									   Restoring a file doesn't erase any of the repository's history. 
 									   Instead, the act of restoring the file is saved as another commit, because you might later want to undo your undoing.
 									   Remember to commit the restored version of file
-12. git reset (HEAD) (file_path/dir/.): unstage the file first
+12. git reset (HEAD) (file_path/dir/.): unstage the file first\\
 	git checkout -- (file_path/dir/.): undo the changes since the last commit
 	Combining them together, it will undo all changes if directly use git reset, otherwise, to a staged file/files in the dir/files in the current dir
 13. git merge source destination -m "msg"
