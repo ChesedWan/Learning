@@ -6,13 +6,13 @@ import dash_html_components as html
 # children can be a num, str, single components or a list of components
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app1 = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 colors = {
     'background': '#111111',
     'text': '#7FDBFF'
 }
 
-app1.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
+app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(
         children='Hello Dash',
         style={
@@ -45,4 +45,4 @@ app1.layout = html.Div(style={'backgroundColor': colors['background']}, children
 ])
 
 if __name__ == '__main__':
-    app1.run_server(debug=True)
+    app.run_server(debug=True)
